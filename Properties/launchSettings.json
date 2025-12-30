@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "fantastic-zoo-console-game": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
