@@ -7,9 +7,9 @@
             Animal dragon = new Animal("Draco", "Dragon", 5, 2, 2);
 
             dragon.Move("north", 10, 10); 
-            dragon.Move("west", 10, 10);   // (1, 1) ✅
-            dragon.Move("west", 10, 10);   // (0, 1) ✅
-            dragon.Move("west", 10, 10);   // Devrait ne rien faire ✅
+            dragon.Move("west", 10, 10);   
+            dragon.Move("west", 10, 10);   
+            dragon.Move("west", 10, 10);   
             dragon.DisplayInfo();  
         }
     }

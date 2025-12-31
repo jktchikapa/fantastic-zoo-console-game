@@ -23,12 +23,12 @@ namespace fantastic_zoo_console_game
         {
             Console.Clear();
             Console.WriteLine("Animal informations");
-            Console.WriteLine("===================================");
+            Console.WriteLine("====================================");
             Console.WriteLine($"Name     : {this.Name}");
             Console.WriteLine($"Species  : {this.Species}");
             Console.WriteLine($"Age      : {this.Age} years");
             Console.WriteLine($"Position : ({this.PositionX}, {this.PositionY})");
-            Console.WriteLine("===================================\n");
+            Console.WriteLine("====================================\n");
             Utils.WaitForKeyPress();
         }
 

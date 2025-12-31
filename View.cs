@@ -12,13 +12,13 @@ namespace fantastic_zoo_console_game
         public static void DisplayError(string message = "Invalid choice, please try again")
         {
             Console.WriteLine(message);
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
 
         public static void DisplaySuccessMessage(string message = "")
         {
             Console.WriteLine(message);
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
     }
 }

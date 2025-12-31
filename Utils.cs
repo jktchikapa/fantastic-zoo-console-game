@@ -12,7 +12,7 @@ namespace fantastic_zoo_console_game
         public static void WaitForKeyPress(string message = "Press a key to continue ...")
         {
             Console.WriteLine(message);
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
 
         public static string ReadNonEmptyInput(string prompt)
@@ -56,7 +56,7 @@ namespace fantastic_zoo_console_game
                 input = Console.ReadLine();
                 if (!string.IsNullOrEmpty(input))
                 {
-
+                    
                 }
             }
         }
