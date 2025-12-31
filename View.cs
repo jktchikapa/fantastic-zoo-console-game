@@ -15,6 +15,10 @@ namespace fantastic_zoo_console_game
             Console.ReadKey();
         }
 
-        
+        public static void DisplaySuccessMessage(string message = "")
+        {
+            Console.WriteLine();
+            Console.ReadKey();
+        }
     }
 }

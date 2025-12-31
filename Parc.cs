@@ -12,7 +12,21 @@ namespace fantastic_zoo_console_game
 
         public static void AddAnimal()
         {
+            Utils.AskAnimalInfo(out string name, out string species, out int age, out int positionX, out int positionY);
+            Animal newAnimal = new Animal(name, species, age, positionX, positionY);
 
+            animalList.Add(newAnimal);
+            View.DisplaySuccessMessage($"{name} has been added to the zoo !");
         }
+
+        public static void SearAnimal()
+        {
+            Utils.AskAnimalInfo(out string name, out string species, out int age, out int positionX, out int positionY);
+            if (Utils.AnimalExist(name, animalList))
+            {
+
+            }
+        }
+
     }
 }
