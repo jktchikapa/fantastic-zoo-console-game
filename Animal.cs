@@ -32,7 +32,6 @@ namespace fantastic_zoo_console_game
             Utils.WaitForKeyPress();
         }
 
-
         public bool Move(string direction, int gridWidth, int gridHeight)
         {
             int newX = this.PositionX, newY = this.PositionY;
